@@ -5,6 +5,7 @@
 
 nav {
     background-color: white;
+    border-bottom: solid 4px black;
 }
 
 #cup {
@@ -23,5 +24,25 @@ nav {
 }
 
 #content {
-    margin-top: 50px;
+    margin-top: 80px;
+}
+
+.menu {
+    /* padding: 30px 40px; */
+    background-color: teal;
+    border-radius: 30px;
+}
+
+.menuBorder {
+    padding: 50px 40px;
+    background-color: #00888866;
+    border-radius: 30px;
+}
+@media screen and (max-width: 600px) {
+    .menu {
+        max-width: calc(100vw - 80px);
+    }
+    .menuBorder {
+        padding: 20px 0px;
+    }
 }
