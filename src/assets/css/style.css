@@ -4,6 +4,24 @@
 }
 
 nav {
-    background-color: yellow;
+    background-color: white;
 }
 
+#cup {
+    height: 50px;
+    width: 50px;
+}
+
+.capital {
+    display: inline;
+}
+
+.text {
+    background-color: #f8f7f4;
+    padding: 25px;
+    border-radius: 45px;
+}
+
+#content {
+    margin-top: 50px;
+}
