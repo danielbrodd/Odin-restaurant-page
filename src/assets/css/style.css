@@ -21,6 +21,7 @@ nav {
     background-color: #f8f7f4;
     padding: 25px;
     border-radius: 45px;
+
 }
 
 #content {
@@ -31,16 +32,19 @@ nav {
     /* padding: 30px 40px; */
     background-color: teal;
     border-radius: 30px;
+    max-width: 90%;
 }
 
 .menuBorder {
     padding: 50px 40px;
     background-color: #00888866;
     border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
 }
 @media screen and (max-width: 600px) {
     .menu {
-        max-width: calc(100vw - 80px);
+        width: 100%;
     }
     .menuBorder {
         padding: 20px 0px;
